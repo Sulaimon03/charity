@@ -1,0 +1,138 @@
+* {
+  background: transparent;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.navbar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  z-index: 99999999;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav-item {
+  list-style-type: none;
+  display: inline-flex;
+  padding-right: 40px;
+  color: aliceblue;
+}
+.nav-item .nav-link:hover {
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  color: darkblue;
+  background: aqua;
+  border-radius: 6px;
+}
+.container-fluid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: aliceblue;
+}
+.fs-1 {
+  font-size: 500px;
+  font-weight: 900;
+  text-size-adjust: 75rem;
+  padding-top: 5em;
+  text-size-adjust: 10px;
+}
+.btn {
+  width: 27rem;
+  height: 45px;
+  border: none;
+  border-radius: 3em;
+  font-weight: 50em;
+
+  cursor: pointer;
+  font-size: 15px;
+  outline-offset: inherit;
+  font-size: 400em;
+}
+h5 p {
+  text-transform: capitalize;
+  text-decoration: transparent;
+}
+.rpd {
+  font-size: larger;
+}
+.row {
+  position: relative;
+  display: inline;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px;
+  font-size: 15px;
+  width: 100%;
+  padding-top: 15px;
+  resize: vertical;
+  overflow: auto;
+}
+.container col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-light a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 900;
+}
+.text-light a:hover {
+  text-decoration: underline;
+  bottom: unset;
+
+  color: rgba(139, 192, 139, 0.644);
+}
+.ceo {
+  background-image: url(../images/ceo.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  row-gap: 20px;
+}
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.ceo {
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
+.container-ceo {
+  size: 30%;
+  /* background-image: url(/images/ceo.jpg);
+  background-repeat: no-repeat repeat;
+  width: 100%; */
+}
+.app img {
+  display: block;
+  max-width: 100%;
+  width: -59px;
+  height: -60;
+}
+.parcel h1 {
+  display: flex;
+  /* align-items: ; */
+  justify-content: center;
+}
+.parcel p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tx-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
